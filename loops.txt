@@ -16,5 +16,5 @@ after for loop parenthesis is equivalent to not writing anything in the loop.
 for(int i=0; i<100; i++)
     for(int j=0; j<100; j++)
 	System.out.print(“ Hi”);
-hi will be printed 100*100 times.
-if we add another loop of for(int a=0; a<100; a++) hi will be printed 100*100*100 times
+Hi will be printed 100*100 times.
+if we add another loop of for(int a=0; a<100; a++) Hi will be printed 100*100*100 times
