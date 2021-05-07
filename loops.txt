@@ -10,8 +10,11 @@ for(int i=0; i<100; i++)
 How many times will “Hi” be printed?
 In the code snippet in the above Q, add another outer loop: for(int a=0; a<100; a++)
 Now how many times will “Hi” be printed?
-in this the i will be set to 0 only for one time.then i will be incremented then the condition ofi <100 will be checked if it satisfies then it will enter the loop.putting the semicolon 
-after for loop parenthesis is equivalent to not writing anything in the loop.
+
+Ans)for(int i=0; i<100; i++) { …..
+}
+in this the i will be set to 0 only for one time.then i will be incremented then the condition ofi <100 will be checked if it satisfies then it will enter the loop.
+putting the semicolon after for loop parenthesis is equivalent to not writing anything in the loop.
 
 for(int i=0; i<100; i++)
     for(int j=0; j<100; j++)
