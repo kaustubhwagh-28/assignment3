@@ -1,0 +1,14 @@
+What is the difference between passing variables by value and by reference?
+in pass by reference the actual adress is passed.in pass by value the parameters are passed in another location and send it to the function.
+the changes made by the method is not reflected in call by value.whereas in call by reference as we are sending the address the change is reflected in variable
+
+
+In your programming languages what is passed by value and what is passed by reference:- 
+Primitive datatypes.
+- Arrays
+- Instances of classes defined by the language
+- Instance of user defined objects
+A2)everything in java is passed by value.we may feel that the instances are passed by reference but it is not like that . we are passing the object reference as a value just like primitive 
+datatype.even in arrays the value is the reference to the array.
+
+3) 

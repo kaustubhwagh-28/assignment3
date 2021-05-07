@@ -1,0 +1,20 @@
+7.	Consider the followng code snippet:
+for(int i=0; i<100; i++) { …..
+}
+Explain in detail how the for loop works. When exactly is the condition checked. When exactly is i incremented. How many times is i set to 0.
+In program 2 above, put a semi-colon immediately after the the loop closing parenthesis (& before the brace if present). Will the output change? Why?
+Consider the following code snippet:
+for(int i=0; i<100; i++)
+    for(int j=0; j<100; j++)
+	System.out.print(“ Hi”);
+How many times will “Hi” be printed?
+In the code snippet in the above Q, add another outer loop: for(int a=0; a<100; a++)
+Now how many times will “Hi” be printed?
+in this the i will be set to 0 only for one time.then i will be incremented then the condition ofi <100 will be checked if it satisfies then it will enter the loop.putting the semicolon 
+after for loop parenthesis is equivalent to not writing anything in the loop.
+
+for(int i=0; i<100; i++)
+    for(int j=0; j<100; j++)
+	System.out.print(“ Hi”);
+hi will be printed 100*100 times.
+if we add another loop of for(int a=0; a<100; a++) hi will be printed 100*100*100 times
